@@ -1,0 +1,6 @@
+1. to create a new file - npm create vite@latest
+2. cd into the project name and then do npm i for all the 
+    node modules
+3. use npm run dev(because in the scripts in node modules, it says vite
+    under dev)
+4. only keep index.js and app.js in src and remove all comments from index.js
