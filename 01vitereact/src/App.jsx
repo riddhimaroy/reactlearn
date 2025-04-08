@@ -4,10 +4,11 @@ import Chai from "./chai"
 
 function App() {
 
+  const username = "chai aur code"
   return (
     <>
     <Chai/>
-    <p>hey</p>
+    <p>this is {username}</p>
     <button>me</button>
     </>
   )

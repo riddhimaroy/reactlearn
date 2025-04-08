@@ -12,6 +12,14 @@ learning vite
     return(<file/>).
 2. you can only return one tag though so if u want to return multiple things make a
     <> and </> and then have multiple tags inside it.
+3. syntax for creating an element - const reactElement = React.createElement(
+    'a',
+    {
+        href: 'https://google.com',
+        target: '_blank'
+    },
+    'click me to visit google'
+)
 
 learning create-react
 
