@@ -21,6 +21,8 @@ learning vite
     'click me to visit google'
     any variable that u wanna use (it'll just get added after in the text of the url)
 )
+4. to create a new file -> npm create vite@latest
+5. to run -> npm run dev
 
 learning create-react
 
