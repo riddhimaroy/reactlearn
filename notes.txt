@@ -27,3 +27,19 @@ learning vite
 learning create-react
 
 1. function has to be capital here also
+
+to setup tailwind
+
+npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@3.4.17
+npx tailwindcss init -p
+
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],        
+  -- in tailwind.config.js
+  replace index.css with @tailwind base;
+@tailwind components;
+@tailwind utilities;
+--import './index.css' in main.jsx
